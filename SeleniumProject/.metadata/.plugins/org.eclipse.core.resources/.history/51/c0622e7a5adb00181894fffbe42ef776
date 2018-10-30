@@ -1,0 +1,14 @@
+package stepDefination;
+
+public class NewToursLaunch 
+
+{
+
+	@Given("launch Newtours")
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,36 @@
+package LaunchApplication;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+//import org.junit.Test;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class LaunchGoogle {
+
+	@Test
+	
+	public void LaunchGoo()
+		
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://newtours.demoaut.com/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+	}
+
+	@Test 
+	public void SignIn()
+	
+	{
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://newtours.demoaut.com/");
+		driver.findElement(By.name("userName")).sendKeys("tutor");
+		driver.findElement(By.name("password")).sendKeys("tutor");
+		driver.findElement(By.name("login")).click();		
+		
+	}
+	
+}

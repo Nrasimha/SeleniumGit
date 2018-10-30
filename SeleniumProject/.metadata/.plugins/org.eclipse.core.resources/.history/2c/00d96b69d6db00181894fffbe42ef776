@@ -1,0 +1,40 @@
+package stepDefination;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class NewToursLaunch 
+
+{  
+	    FirefoxDriver driver; 
+	@Given("^LaunchNewTours$")
+	public void LaunchNewTours()
+	{
+	    // Express the Regexp above with the code you wish you had
+	    driver = new FirefoxDriver();
+	    driver.get("http://newtours.demoaut.com/");
+	    driver.manage().window().maximize();
+	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);    
+	    
+	}
+
+	@When("^LogInNewTours$")
+	public void LogInNewTours() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+	@Then("^LogoutNewTours$")
+	public void LogoutNewTours() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    throw new PendingException();
+	}
+
+
+}

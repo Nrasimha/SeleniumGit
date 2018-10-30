@@ -1,0 +1,53 @@
+package com.AccessCrossBrowser;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class CrossBrowser
+
+{
+	@Test
+	
+	public void FirefoxDriver1()
+	
+	{
+		
+		FirefoxDriver driver = new FirefoxDriver();
+		driver.get("http://newtours.demoaut.com");
+		driver.close();
+	}
+	
+	
+	@Test
+	public void GoogleChrome()
+	
+	{
+		System.setProperty("WebDriver.chrome.driver",System.getProperty("user.dir")+"\\CrossBrowsers\\chromedriver.exe");
+		ChromeDriver drive= new ChromeDriver();
+		drive.get("http://facebook.com");
+		drive.quit();
+			
+	}
+
+	@Test 
+	public void EdgeBrowser()
+	
+	{
+		System.setProperty("WebDriver.Edge.driver", System.getProperty("user.dir")+ "\\CrossBrowsers\\MicrosoftWebDriver.exe");
+		EdgeDriver dri= new EdgeDriver();
+		dri.get("http://google.com");
+		dri.quit();
+		
+	}
+
+
+	
+	
+}
+
+
+
+

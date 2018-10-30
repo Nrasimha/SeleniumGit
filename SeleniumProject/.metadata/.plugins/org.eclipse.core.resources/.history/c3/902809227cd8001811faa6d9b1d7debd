@@ -1,0 +1,16 @@
+userName=userName
+password=password
+SignIn=login
+FirstName=firstName
+LastName=lastName
+Phone=phone 
+Email=userName
+Address=address1
+City=city
+State=state
+postalCode=postalCode
+country=country
+UserName=email
+Password=password
+ConfirmPassword=confirmPassword
+submit=register

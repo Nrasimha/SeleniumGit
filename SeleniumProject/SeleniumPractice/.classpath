@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/bsh-2.0b6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/testng-6.14.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/poi-examples-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/poi-excelant-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/poi-scratchpad-3.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/narsi/Desktop/Practice/SeleniumProject/Excel jars/ApachePoiJarFiles/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

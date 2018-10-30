@@ -1,0 +1,39 @@
+package com.POM;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.rules.Timeout;
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeTest;
+
+public class NewToursAutomation 
+
+{
+	FirefoxDriver driver;
+	
+	@BeforeTest
+	public void Setup()
+	
+	{
+		 driver = new FirefoxDriver();
+		 driver.get("http://newtours.demoaut.com/");
+		 driver.manage().window().maximize();
+		 driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+				
+	}
+
+	public void Sign()
+	
+	{
+	
+		WelcomeMercuryTours WMT = PageFactory.initElements(driver, WelcomeMercuryTours.class);
+		WMT.signon();
+		
+	}
+
+}
+
+
+

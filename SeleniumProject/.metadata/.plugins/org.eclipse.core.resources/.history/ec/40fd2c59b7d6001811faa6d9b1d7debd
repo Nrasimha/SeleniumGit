@@ -1,0 +1,18 @@
+package com.AccessCrossBrowser;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CrossBrowser
+
+{
+	public void GoogleChrome()
+	
+	{
+		
+		System.setProperty("Webdriver.chrome.driver","C:\\Users\\narsi\\Desktop\\Practice\\SeleniumProject\\SeleniumPractice\\CrossBrowsers\\chromedriver.exe");
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://facebook.com");
+			
+	}
+}
